@@ -6,9 +6,9 @@ jobs:
   name: Use Linux commands
   runs-on: ubuntu-latest
   steps:
-    - name: Checkout
+  - name: Checkout
     uses: actions/checkout@v4
-    - name: Permission Setting
+  - name: Permission Setting
     run: chmod +x hello.sh hello_test.sh
-    - name: Test Run
-      run: ./hello-test.sh
+  - name: Test Run
+    run: ./hello-test.sh
