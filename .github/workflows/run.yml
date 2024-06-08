@@ -11,4 +11,4 @@ jobs:
       - name: Permission Setting
         run: chmod +x hello.sh hello_test.sh
       - name: Test Run
-        run: ./hello-test.sh
+        run: ./hello_test.sh
